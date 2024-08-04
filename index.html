@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Example</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="openModalBtn" class="button-1">Open Modal</button>
+
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="closeBtn">&times;</span>
+          <p>This is a modal!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <input
+        type="text"
+        id="colorInput"
+        placeholder="Enter a color (red, blue, green, black, white)"
+      />
+      <button id="changeColorBtn" class="button-2">Change Background Color</button>
+    </div>
+
+    <div class="container">
+      <input
+        type="text"
+        id="numbersInput"
+        placeholder="Enter numbers separated by ':'"
+      />
+      <button id="calculateAverageBtn" class="button-3">Calculate Average</button>
+      <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
